@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_DVuEADuDEe6nxts5fEGlrQ" name="CF">
+    <eAnnotations xmi:id="_DtBwwDuDEe6nxts5fEGlrQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_DtBwwTuDEe6nxts5fEGlrQ" source="codegen">
+        <details xmi:id="_DtBwwjuDEe6nxts5fEGlrQ" key="codegenDirectory" value="/DI_IOC_JAVA/src"/>
+        <details xmi:id="_D6chsDuDEe6nxts5fEGlrQ" key="AssociatedSourceCode" value="/DI_IOC_JAVA/src/couplageFort/EmailService.java;1268947004/1;/DI_IOC_JAVA/src/couplageFort/Metier.java;335614176/1;/DI_IOC_JAVA/src/couplageFort/Test.java;2428828216/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Dzj2kDuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_DzkdoDuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_DzkdoTuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_DzlEsDuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_DzlEsTuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_DzlEsjuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_DzlrwDuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_DzlrwTuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_DzmS0DuDEe6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DzovEDuDEe6nxts5fEGlrQ" name="couplageFort">
+      <packagedElement xmi:type="uml:Class" xmi:id="_DzxR8DuDEe6nxts5fEGlrQ" name="EmailService">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D0RBMDuDEe6nxts5fEGlrQ" name="SendEmail" specification="_DzzuMDuDEe6nxts5fEGlrQ">
+          <ownedParameter xmi:id="_D0RBMTuDEe6nxts5fEGlrQ" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_D0RBMjuDEe6nxts5fEGlrQ" name="receiver">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;email Send to :&quot;+receiver);&#xD;
+	System.out.println(&quot;Message : &quot;+message);&#xD;
+	&#xD;
+	&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_DzzuMDuDEe6nxts5fEGlrQ" name="SendEmail" method="_D0RBMDuDEe6nxts5fEGlrQ">
+          <ownedParameter xmi:id="_DzzuMTuDEe6nxts5fEGlrQ" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Dz0VQDuDEe6nxts5fEGlrQ" name="receiver">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Dz4msDuDEe6nxts5fEGlrQ" name="Metier">
+        <ownedAttribute xmi:id="_D0Ok8DuDEe6nxts5fEGlrQ" name="email" visibility="package" type="_DzxR8DuDEe6nxts5fEGlrQ" association="_D0V5sDuDEe6nxts5fEGlrQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_D0PMADuDEe6nxts5fEGlrQ" value="new EmailService()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D0SPUDuDEe6nxts5fEGlrQ" name="processMessages" specification="_Dz7C8DuDEe6nxts5fEGlrQ">
+          <ownedParameter xmi:id="_D0SPUTuDEe6nxts5fEGlrQ" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_D0S2YDuDEe6nxts5fEGlrQ" name="rec">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//do some msg validation, manipulation logic etc&#xD;
+			this.email.SendEmail(msg, rec);&#xD;
+			&#xD;
+	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Dz7C8DuDEe6nxts5fEGlrQ" name="processMessages" method="_D0SPUDuDEe6nxts5fEGlrQ">
+          <ownedParameter xmi:id="_Dz7C8TuDEe6nxts5fEGlrQ" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Dz7C8juDEe6nxts5fEGlrQ" name="rec">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Dz9fMDuDEe6nxts5fEGlrQ" name="Test">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_D0TdcDuDEe6nxts5fEGlrQ" name="main" specification="_D0Ez8DuDEe6nxts5fEGlrQ">
+          <ownedParameter xmi:id="_D0TdcTuDEe6nxts5fEGlrQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D0TdcjuDEe6nxts5fEGlrQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/*COUPLAGE FORT&#xD;
+		 *  Application ouverte a la modification &#xD;
+		 *  on doit modifier dans le code source une fois on veut changer le srvice&#xD;
+		 * &#xD;
+		 *  &#xD;
+		 *  &#xD;
+		 *  Une classe devait être ouverte pour l'extension, mais fermée pour la modification.&#xD;
+&#xD;
+       Le système devait pouvoir s'ouvrir pour l'extension (nous pouvions ajouter de nouvelles fonctionnalités) &#xD;
+       et devait rester fermé à la modification (l'ancien code n'avait pas nécessairement besoin d'être modifié &#xD;
+       lorsque nous ajoutions ces nouvelles fonctionnalités).&#xD;
+		 */&#xD;
+		&#xD;
+		 &#xD;
+&#xD;
+		Metier app = new Metier();//Application est besoin de Email&#xD;
+&#xD;
+		app.processMessages(&quot;Hi Pankaj&quot;, &quot;pankaj@abc.com&quot;);&#xD;
+		/*&#xD;
+		 * &#xD;
+		 *     Cela rend notre application difficile à étendre et si le service &#xD;
+		 *     de messagerie est utilisé dans plusieurs classes, ce serait encore &#xD;
+		 *     plus difficile.&#xD;
+		 */&#xD;
+		app.processMessages(&quot;Hi nkaj&quot;, &quot;nkaj@abc.com&quot;);&#xD;
+&#xD;
+&#xD;
+		/*&#xD;
+		 * Si nous voulons étendre notre application pour fournir une fonctionnalité&#xD;
+		 *  de messagerie supplémentaire, telle que SMS ou message Facebook,&#xD;
+		 *   nous aurions besoin d'écrire une autre application pour cela. Cela&#xD;
+		 *    impliquera également des changements de code dans les classes&#xD;
+		 *     d'application et dans les classes client.&#xD;
+		 */&#xD;
+	&#xD;
+		&#xD;
+		&#xD;
+		// TODO Auto-generated method stub&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_D0Ez8DuDEe6nxts5fEGlrQ" name="main" isStatic="true" method="_D0TdcDuDEe6nxts5fEGlrQ">
+          <ownedParameter xmi:id="_D0Ez8TuDEe6nxts5fEGlrQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D0FbADuDEe6nxts5fEGlrQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_D0V5sDuDEe6nxts5fEGlrQ" name="" memberEnd="_D0V5sTuDEe6nxts5fEGlrQ _D0Ok8DuDEe6nxts5fEGlrQ">
+        <ownedEnd xmi:id="_D0V5sTuDEe6nxts5fEGlrQ" name="" type="_Dz4msDuDEe6nxts5fEGlrQ" association="_D0V5sDuDEe6nxts5fEGlrQ"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_DtC-4DuDEe6nxts5fEGlrQ">
+      <eAnnotations xmi:id="_DtC-4TuDEe6nxts5fEGlrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_DtDl8DuDEe6nxts5fEGlrQ" base_Package="_DVuEADuDEe6nxts5fEGlrQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_D0QaIDuDEe6nxts5fEGlrQ" base_Element="_D0Ok8DuDEe6nxts5fEGlrQ"/>
+  <UMLLabProfile:Reference xmi:id="_D0YV8DuDEe6nxts5fEGlrQ" base_Element="_D0V5sDuDEe6nxts5fEGlrQ"/>
+</xmi:XMI>

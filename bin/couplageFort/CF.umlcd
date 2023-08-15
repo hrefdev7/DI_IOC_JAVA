@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_DdccoDuDEe6nxts5fEGlrQ">
+  <modelElement href="CF.uml#_DzovEDuDEe6nxts5fEGlrQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_D8E5YDuDEe6nxts5fEGlrQ" sourceAnchor="295.0,27.0" targetAnchor="153.0,54.0" target="_D74sIDuDEe6nxts5fEGlrQ" source="_D8MOIDuDEe6nxts5fEGlrQ">
+    <modelElement href="CF.uml#_D0V5sDuDEe6nxts5fEGlrQ"/>
+    <bendpoints xmi:id="_F_tlEDuDEe6nxts5fEGlrQ" sourceX="144" targetY="93"/>
+    <stereotypes xmi:id="_D8H8sDuDEe6nxts5fEGlrQ" name="Reference">
+      <modelElement href="CF.uml#_D0YV8DuDEe6nxts5fEGlrQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_D8GukDuDEe6nxts5fEGlrQ" text="">
+      <visualProperties xmi:id="_EAWVYDuDEe6nxts5fEGlrQ" position="2.5,-55.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_D8GukTuDEe6nxts5fEGlrQ" aggregationKind="NONE" name="">
+      <modelElement href="CF.uml#_D0V5sTuDEe6nxts5fEGlrQ"/>
+      <visualProperties xmi:id="_EAVHQTuDEe6nxts5fEGlrQ" position="13.75,2.0"/>
+      <visibility xmi:id="_D8Jx4TuDEe6nxts5fEGlrQ" label="+"/>
+      <cardinality xmi:id="_D8Jx4DuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_D8HVoDuDEe6nxts5fEGlrQ" aggregationKind="NONE" name="email" navigable="true">
+      <modelElement href="CF.uml#_D0Ok8DuDEe6nxts5fEGlrQ"/>
+      <visualProperties xmi:id="_EAW8cDuDEe6nxts5fEGlrQ" position="-44.5,7.0"/>
+      <visibility xmi:id="_D8KY8DuDEe6nxts5fEGlrQ" label="~"/>
+      <cardinality xmi:id="_D8Jx4juDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D8MOIDuDEe6nxts5fEGlrQ" name="Metier" associationsOut="_D8E5YDuDEe6nxts5fEGlrQ">
+    <modelElement href="CF.uml#_Dz4msDuDEe6nxts5fEGlrQ"/>
+    <visualProperties xmi:id="_D8MOITuDEe6nxts5fEGlrQ" position="-187.0,409.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D8MOIjuDEe6nxts5fEGlrQ" label="+"/>
+    <attributes xmi:id="_D8MOIzuDEe6nxts5fEGlrQ" defaultValue="new EmailService()" name="email">
+      <modelElement href="CF.uml#_D0Ok8DuDEe6nxts5fEGlrQ"/>
+      <stereotypes xmi:id="_D8MOJDuDEe6nxts5fEGlrQ" name="LegacyStyledElement">
+        <modelElement href="CF.uml#_D0QaIDuDEe6nxts5fEGlrQ"/>
+      </stereotypes>
+      <visibility xmi:id="_D8MOJTuDEe6nxts5fEGlrQ" label="~"/>
+      <cardinality xmi:id="_D8MOJjuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+      <type xmi:id="_D8MOJzuDEe6nxts5fEGlrQ" name="EmailService">
+        <modelElement href="CF.uml#_DzxR8DuDEe6nxts5fEGlrQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_D8MOKDuDEe6nxts5fEGlrQ" name="processMessages">
+      <modelElement href="CF.uml#_Dz7C8DuDEe6nxts5fEGlrQ"/>
+      <visibility xmi:id="_D8MOKTuDEe6nxts5fEGlrQ" label="+"/>
+      <cardinality xmi:id="_D8MOKjuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_D8MOKzuDEe6nxts5fEGlrQ" name="msg">
+        <modelElement href="CF.uml#_Dz7C8TuDEe6nxts5fEGlrQ"/>
+        <cardinality xmi:id="_D8MOLDuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_D8MOLTuDEe6nxts5fEGlrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_D8MOLjuDEe6nxts5fEGlrQ" name="rec">
+        <modelElement href="CF.uml#_Dz7C8juDEe6nxts5fEGlrQ"/>
+        <cardinality xmi:id="_D8MOLzuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_D8MOMDuDEe6nxts5fEGlrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D8AA4DuDEe6nxts5fEGlrQ" name="Test">
+    <modelElement href="CF.uml#_Dz9fMDuDEe6nxts5fEGlrQ"/>
+    <visualProperties xmi:id="_D8AA4TuDEe6nxts5fEGlrQ" position="-155.0,290.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D8AA4juDEe6nxts5fEGlrQ" label="+"/>
+    <operations xmi:id="_D8AA4zuDEe6nxts5fEGlrQ" name="main" staticOperation="true">
+      <modelElement href="CF.uml#_D0Ez8DuDEe6nxts5fEGlrQ"/>
+      <visibility xmi:id="_D8AA5DuDEe6nxts5fEGlrQ" label="+"/>
+      <cardinality xmi:id="_D8AA5TuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_D8AA5juDEe6nxts5fEGlrQ" name="args">
+        <modelElement href="CF.uml#_D0Ez8TuDEe6nxts5fEGlrQ"/>
+        <cardinality xmi:id="_D8AA5zuDEe6nxts5fEGlrQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_D8AA6DuDEe6nxts5fEGlrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_D74sIDuDEe6nxts5fEGlrQ" name="EmailService" associationsIn="_D8E5YDuDEe6nxts5fEGlrQ">
+    <modelElement href="CF.uml#_DzxR8DuDEe6nxts5fEGlrQ"/>
+    <visualProperties xmi:id="_D74sITuDEe6nxts5fEGlrQ" position="99.0,289.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D74sIjuDEe6nxts5fEGlrQ" label="+"/>
+    <operations xmi:id="_D74sIzuDEe6nxts5fEGlrQ" name="SendEmail">
+      <modelElement href="CF.uml#_DzzuMDuDEe6nxts5fEGlrQ"/>
+      <visibility xmi:id="_D74sJDuDEe6nxts5fEGlrQ" label="+"/>
+      <cardinality xmi:id="_D74sJTuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_D74sJjuDEe6nxts5fEGlrQ" name="message">
+        <modelElement href="CF.uml#_DzzuMTuDEe6nxts5fEGlrQ"/>
+        <cardinality xmi:id="_D74sJzuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_D74sKDuDEe6nxts5fEGlrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_D74sKTuDEe6nxts5fEGlrQ" name="receiver">
+        <modelElement href="CF.uml#_Dz0VQDuDEe6nxts5fEGlrQ"/>
+        <cardinality xmi:id="_D74sKjuDEe6nxts5fEGlrQ" label="1" max="1" min="1"/>
+        <type xmi:id="_D74sKzuDEe6nxts5fEGlrQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
