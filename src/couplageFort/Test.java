@@ -8,27 +8,24 @@ public class Test {
 		 *  Application ouverte a la modification 
 		 *  on doit modifier dans le code source une fois on veut changer le srvice
 		 * 
-		 *  
-		 *  
-		 *  Une classe devait être ouverte pour l'extension, mais fermée pour la modification.
+		 * *  Une classe devait être ouverte pour l'extension, mais fermée pour la modification.
 
           Le système devait pouvoir s'ouvrir pour l'extension (nous pouvions ajouter de nouvelles fonctionnalités) 
           et devait rester fermé à la modification (l'ancien code n'avait pas nécessairement besoin d'être modifié 
           lorsque nous ajoutions ces nouvelles fonctionnalités).
 		 */
-		
-		 
+			 
 
 		Metier app = new Metier();//Application est besoin de Email
 
-		app.processMessages("Hi Pankaj", "pankaj@abc.com");
+		app.processMessages("Achref", "hrefhaouari@gmail.com");
 		/*
 		 * 
 		 *     Cela rend notre application difficile à étendre et si le service 
 		 *     de messagerie est utilisé dans plusieurs classes, ce serait encore 
 		 *     plus difficile.
 		 */
-		app.processMessages("Hi nkaj", "nkaj@abc.com");
+		app.processMessages2("Hamma sms Envoyé", "come here");
 
 
 		/*
