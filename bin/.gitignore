@@ -1,11 +1,7 @@
 /couplageFort/
-/entity/
 /img/
+/extention/
 /iocDynamic/
+/iocStatic/
 /metier/
 /serviceMess/
-/test/
-/instanciationStatique/
-/TestInt.class
-/instanceStatique/
-/iocStatic/

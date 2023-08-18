@@ -13,10 +13,17 @@ public class MetierImpl implements Imetier   {
 		
 private MessageService service;
 	
-	public MetierImpl() {
-
-	}
+	 
 	
+	public MetierImpl() {
+	
+}
+
+	public MetierImpl(MessageService service) {
+	
+		this.service = service;
+	}
+
 	/*  // Constructor  dependency injection	
 	
 	 * public MetierImpl(MessageService svc){this.service=svc;}  

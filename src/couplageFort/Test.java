@@ -25,9 +25,7 @@ public class Test {
 		 *     de messagerie est utilisé dans plusieurs classes, ce serait encore 
 		 *     plus difficile.
 		 */
-		app.processMessages2("Hamma sms Envoyé", "come here");
-
-
+		app.processMessages2("ISSA", "YUOR ACCCEPTED TO PASS THE ENTREVIE");
 		/*
 		 * Si nous voulons étendre notre application pour fournir une fonctionnalité
 		 *  de messagerie supplémentaire, telle que SMS ou message Facebook,

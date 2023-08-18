@@ -1,4 +1,6 @@
-package serviceMess;
+package extention;
+
+import serviceMess.MessageService;
 
 public class EmailServiceImpl implements MessageService {
 
