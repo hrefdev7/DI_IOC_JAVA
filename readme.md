@@ -27,13 +27,13 @@ Pour faire au plus simple, il faut que votre ensemble de codes ne sache faire qu
 Ce principe est décrit comme suit : les entités logicielles (classes, modules, fonctions, etc.) doivent être ouvertes à l'extension, mais fermées à la modification . Cela signifie qu'il devrait être possible de modifier le comportement externe d'une classe sans apporter de modifications au code existant de la classe. Selon ce principe, les classes sont conçues de sorte que modifier une classe pour l'adapter à des conditions spécifiques nécessite simplement de l'étendre et de remplacer certaines fonctions. Cela signifie que le système doit être flexible, capable de fonctionner dans des conditions changeantes sans changer le code source.
 
   <img src="src/img/cf.JPG">  
-  <img src="src/img/10.png"> 
   <img src="src/img/cfort.JPG"> 
    <img src="src/img/oc.png"> 
 
  <h1>Principe d'inversion de dépendance (DIP)</h1> <img src="src/img/di.JPG">
   <img src="src/img/2.JPG"> <img src="src/img/3.JPG"> <img src="src/img/4.JPG"> <img src="src/img/5.JPG">
 
+  <img src="src/img/10.png"> 
 
  
  
