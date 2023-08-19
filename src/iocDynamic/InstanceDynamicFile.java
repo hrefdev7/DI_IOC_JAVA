@@ -32,7 +32,7 @@ public  class InstanceDynamicFile {
 	String line1 =scan.nextLine(); 	//lire la premiere ligne de fichier config.txt
 	Class metimpl=Class.forName(line1);
 	
-	//********* Injection des dépendances dynamique with Constructo ********
+	//********* Injection des dependances dynamique with Constructor ********
 	Imetier imp=(Imetier)metimpl.getConstructor(MessageService.class).newInstance(sms); //equivalent a ---> new SMSServiceImpl ()
 	System.out.println(line1);
     System.err.println("Adresse memoire de l'objet :"+metimpl.hashCode());
@@ -40,7 +40,7 @@ public  class InstanceDynamicFile {
     imp.processMessages("AZE", "AZERT");
    
     /*OUBIEN
-	 ********** Injection des dépendances dynamique with settet ********
+	 ********** Injection des dependances dynamique with settet ********
        Method m1=metimpl.getDeclaredMethod("setService",MessageService.class);
        m1.invoke(imp,sms); 
 	 */

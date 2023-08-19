@@ -8,11 +8,11 @@ public class Test {
 		 *  Application ouverte a la modification 
 		 *  on doit modifier dans le code source une fois on veut changer le srvice
 		 * 
-		 * *  Une classe devait être ouverte pour l'extension, mais fermée pour la modification.
+		 * *  Une classe devait Ãªtre ouverte pour l'extension, mais fermÃ©e pour la modification.
 
-          Le système devait pouvoir s'ouvrir pour l'extension (nous pouvions ajouter de nouvelles fonctionnalités) 
-          et devait rester fermé à la modification (l'ancien code n'avait pas nécessairement besoin d'être modifié 
-          lorsque nous ajoutions ces nouvelles fonctionnalités).
+          Le systÃ¨me devait pouvoir s'ouvrir pour l'extension (nous pouvions ajouter de nouvelles fonctionnalitÃ©s) 
+          et devait rester fermÃ© Ã  la modification (l'ancien code n'avait pas nÃ©cessairement besoin d'Ãªtre modifiÃ© 
+          lorsque nous ajoutions ces nouvelles fonctionnalitÃ©s).
 		 */
 			 
 
@@ -21,16 +21,16 @@ public class Test {
 		app.processMessages("Achref", "hrefhaouari@gmail.com");
 		/*
 		 * 
-		 *     Cela rend notre application difficile à étendre et si le service 
-		 *     de messagerie est utilisé dans plusieurs classes, ce serait encore 
+		 *     Cela rend notre application difficile Ã  Ã©tendre et si le service 
+		 *     de messagerie est utilisÃ© dans plusieurs classes, ce serait encore 
 		 *     plus difficile.
 		 */
 		app.processMessages2("ISSA", "YUOR ACCCEPTED TO PASS THE ENTREVIE");
 		/*
-		 * Si nous voulons étendre notre application pour fournir une fonctionnalité
-		 *  de messagerie supplémentaire, telle que SMS ou message Facebook,
-		 *   nous aurions besoin d'écrire une autre application pour cela. Cela
-		 *    impliquera également des changements de code dans les classes
+		 * Si nous voulons Ã©tendre notre application pour fournir une fonctionnalitÃ©
+		 *  de messagerie supplÃ©mentaire, telle que SMS ou message Facebook,
+		 *   nous aurions besoin d'Ã©crire une autre application pour cela. Cela
+		 *    impliquera Ã©galement des changements de code dans les classes
 		 *     d'application et dans les classes client.
 		 */
 	

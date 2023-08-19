@@ -14,12 +14,12 @@ public class Metier {
 }
 	
 	/*
-	 *  nous pouvons supprimer la création d'instance de service
+	 *  nous pouvons supprimer la crÃ©ation d'instance de service
 	 *  de messagerie de  metier la classe en ayant un constructeur qui
-	 *   nécessite un service de messagerie comme argument.
+	 *   nÃ©cessite un service de messagerie comme argument.
 	 */ /*
- * metier class est chargé d'initialiser le service de messagerie,
-		 *  puis de l'utiliser. Cela conduit à une dépendance codée en dur.
+ * metier class est chargÃ© d'initialiser le service de messagerie,
+		 *  puis de l'utiliser. Cela conduit Ã  une dÃ©pendance codÃ©e en dur.
 		 *  COUPLAGE FORT
 		 *  
  */
@@ -29,8 +29,8 @@ public class Metier {
 			this.email.SendEmail(msg, rec);
 			
 		/*
-		 * 	 Si nous voulons passer à un autre service de messagerie avancé à l'avenir,
-		 	     cela nécessitera des modifications de code dans la classe MyApplication.
+		 * 	 Si nous voulons passer Ã  un autre service de messagerie avancÃ© Ã  l'avenir,
+		 	     cela nÃ©cessitera des modifications de code dans la classe MyApplication.
 	*/
 	}
 		public void processMessages2(String msg, String rec){
