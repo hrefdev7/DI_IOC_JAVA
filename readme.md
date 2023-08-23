@@ -17,7 +17,7 @@
 
 Pour faire au plus simple, il faut que votre ensemble de codes ne sache faire qu’une seule chose. A la base, on parle de ce principe pour une class en programmation orientée objet ( POO ) ; c’est à dire qu’une class ne doit s’occuper que d’une seule partie du code, ce dont pourquoi elle existe. 
 
-
+En gros, pour savoir si une classe respecte le SRP, il faut dire: « La classe X fait … » en étant le plus spécifique possible. Si la phrase ci-dessus contient des et ou des ou, alors votre classe a plus d’une responsabilité. De façon plus subtile, si elle contient des mots génériques comme gère ou objet (exemple: gère les utilisateurs, valide les objets), alors vous devriez avoir la puce à l’oreille
 
 ##Open Closed Principle in Java
 
