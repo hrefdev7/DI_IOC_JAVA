@@ -5,6 +5,7 @@ package iocStatic;
 
 
 import metier.MetierImpl;
+import serviceMess.MessageService;
 import serviceMess.SMSServiceImpl;
 
 /*
@@ -23,7 +24,7 @@ public class TestInt {
 				 		
 		*/		
 	//***********RELATION ASSOCIATION******WIH SETTER *********
-		SMSServiceImpl s=new SMSServiceImpl(); 
+		MessageService s=new SMSServiceImpl(); 
 		MetierImpl c=new MetierImpl(s);
 	 			
 		c.processMessages("achref", " GO no stop");

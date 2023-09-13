@@ -1,5 +1,6 @@
 package iocDynamic;
 
+
 import java.io.File;
 import java.util.Scanner;
 import metier.Imetier;
@@ -12,6 +13,10 @@ import serviceMess.MessageService;
      * ******************CHOIX DE SERVICE A UTILISER DANS LE FICHIER CONFIG.TXT**********************
      * 
      *      */
+/**
+* @author Achref Hawari
+ *
+ */
 public  class InstanceDynamicFile {
 	
 	public static void main(String[] args) throws Exception   {

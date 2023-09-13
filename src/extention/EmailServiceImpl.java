@@ -2,6 +2,10 @@ package extention;
 
 import serviceMess.MessageService;
 
+/**
+* @author Achref Hawari
+ *
+ */
 public class EmailServiceImpl implements MessageService {
 	
 	public  EmailServiceImpl() {

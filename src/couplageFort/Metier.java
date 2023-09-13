@@ -1,5 +1,9 @@
 package couplageFort;
 
+/**
+* @author Achref Hawari
+ *
+ */
 public class Metier {
 /* 
  * la class metier s'occupe denvoyer les message par mail ou par sms
